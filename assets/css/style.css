@@ -9,12 +9,14 @@
   width: 100%;
 }
 
-.container1 {
+.container {
+  clear: both;
   height: 110px;
   border: 1px solid black;
   margin-bottom: 10px;
-  padding-top: 5px;
+  padding: 5px;
 }
+
 
 .red {
   background-color: red;
@@ -29,14 +31,7 @@
   height: 100px;
 }
 
-/* wrapper2 */
-.container2 {
-  height: 110px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  clear: both;
-  padding-top: 5px;
-}
+/* container 2 */
 
 .box {
   min-width: 100px;
@@ -68,13 +63,6 @@
 }
 
 /* container 3 */
-.container3 {
-  height: 110px;
-  border: 1px solid black;
-  margin-bottom: 50px;
-  clear: both;
-  padding-top: 5px;
-}
 
 .box1 {
   min-width: 100px;
@@ -100,17 +88,12 @@
   background-color: gray;
   float: right;
   margin-right: -200px;
-
 }
 
 /* container 4 */
-.container4 {
+.container4,
+.container5 {
   height: 310px;
-  min-width: 100%;
-  border: 1px solid black;
-  margin-bottom: 50px;
-  clear: both;
-  padding-top: 5px;
 }
 
 .extra-container {
@@ -142,14 +125,6 @@
 }
 
 /* container 5 */
-.container5 {
-  height: 310px;
-  border: 1px solid black;
-  clear: both;
-  margin-bottom: 50px;
-  padding-top: 5px;
-
-}
 
 .extra-container1 {
   margin-left: calc(100% - 380px);
