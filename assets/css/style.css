@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100vw;
+}
+
+.container1 {
+  height: 30%;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+/* wrapper2 */
+.container2 {
+  height: 30%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  clear: both;
+}
+
+.box {
+  min-width: 100px;
+  min-height: 100px;
+  float: left;
+}
+
+.orange {
+  background-color: orange;
+  float: left;
+}
+
+.black {
+  background-color: black;
+  float: right;
+  margin-right: 200px;
+}
+
+.green {
+  background-color: green;
+  float: right;
+  margin-right: -200px;
+}
+
+.blue {
+  background-color: blue;
+  float: right;
+  margin-right: -300px;
+}
+
+.container3 {
+  height: 30%;
+  width: 100%;
+  clear: both;
+}
+
+.box1 {
+  min-width: 100px;
+  min-height: 100px;
+  float: left;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.violet {
+  background-color: violet;
+  float: right;
+  margin-right: 100px;
+}
+
+.gray {
+  background-color: gray;
+  float: right;
+  margin-right: -200px;
+
+}
+
+.container4 {
+  width: 100%;
+  margin-left: calc(50% - 200px);
+  clear: both;
+}
+
+.box2 {
+  min-width: 170px;
+  min-height: 100px;
+  float: left;
+}
+
+.indigo {
+  background-color: indigo;
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.lightblue {
+  background-color: lightblue;
+  margin-left: 10px;
+}
+
+.coral {
+  background-color: coral;
+  margin-left: 10px;
+  margin-top: 200px;
+  margin-left: -170px;
+}
+
+
+.container5 {
+  width: 100%;
+  /* margin-left: calc(50% - 200px); */
+  clear: both;
+  margin-left: calc(100% - 400px);
+}
+
+.box3 {
+  min-width: 170px;
+  min-height: 100px;
+  float: left;
+}
+
+.tomato {
+  background-color: tomato;
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+  margin-left: 10px;
+}
+
+.darkorange {
+  background-color: darkorange;
+  margin-left: 10px;
+  margin-top: 200px;
+  margin-left: -170px;
+}
